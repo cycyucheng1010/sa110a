@@ -154,13 +154,38 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (35ms
 ### TDD: 
 * 先寫測試再寫程式
 * 說明: The opposite of _.before; this method creates a function that invokes func once it's called n or more times.
-* 測試
+* 測試: [test3.js](https://github.com/cycyucheng1010/sa110a/blob/master/HW/HW1/module_test/test3.js)
 ```
+import * as _ from "../cycafter.js";
+import{assert} from "https://deno.land/std@0.108.0/testing/asserts.ts"
 
+Deno.test("after",()=>{
+var saves = ['profile', 'settings'];
+ 
+var done = _.after(saves.length, function() {
+  console.log('done saving!');
+});
+/*
+_.forEach(saves, function(type) {
+  asyncSave({ 'type': type, 'complete': done });
+});
+// => Logs 'done saving!' after the two async saves have completed.
+*/
+})
 ```
-* 程式
+* 程式:[cycafter.js ](https://github.com/cycyucheng1010/sa110a/blob/master/HW/HW1/cycafter.js)
 ```
-
+export function after(n, func) {
+    if (typeof func !== 'function') {
+      throw new TypeError('Expected a function')
+    }
+    n = n || 0
+    return function(...args) {
+      if (--n < 1) {
+        return func.apply(this, args)
+      }
+    }
+  }
 ```
 * result
 ```
