@@ -50,5 +50,7 @@ ok (3ms)
 
 test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (3ms)
 ```
-### BDD: 先寫規格，再寫測試，最後寫程式
-### TDD: 先寫測試再寫程式
+### BDD: 
+* 先寫規格，再寫測試，最後寫程式
+### TDD: 
+* 先寫測試再寫程式
