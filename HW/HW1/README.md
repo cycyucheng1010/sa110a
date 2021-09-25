@@ -153,3 +153,20 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (35ms
 ```
 ### TDD: 
 * 先寫測試再寫程式
+* 說明: The opposite of _.before; this method creates a function that invokes func once it's called n or more times.
+* 測試
+```
+
+```
+* 程式
+```
+
+```
+* result
+```
+yucheng@ubuntu:~/sa110a/HW/HW1/module_test$ deno test test3.js
+running 1 test from file:///home/yucheng/sa110a/HW/HW1/module_test/test3.js
+test after ... ok (7ms)
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (33ms)
+```
