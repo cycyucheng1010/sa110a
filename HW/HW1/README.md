@@ -54,6 +54,28 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out (3ms)
 * 先寫規格，再寫測試，最後寫程式
 * 說明: Checks if number is between start and up to, but not including, end. 
 * 規格: 
+```
+_.inRange(3, 2, 4);
+// => true
+ 
+_.inRange(4, 8);
+// => true
+ 
+_.inRange(4, 2);
+// => false
+ 
+_.inRange(2, 2);
+// => false
+ 
+_.inRange(1.2, 2);
+// => true
+ 
+_.inRange(5.2, 4);
+// => false
+ 
+_.inRange(-3, -2, -6);
+// => true
+```
 * 測試:[test2.js](https://github.com/cycyucheng1010/sa110a/blob/master/HW/HW1/module_test/test2.js)
 ```
 /*
