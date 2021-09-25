@@ -1,7 +1,7 @@
 import * as _ from "../cycafter.js";
 import{assert} from "https://deno.land/std@0.108.0/testing/asserts.ts"
 
-Deno.test("findindex",()=>{
+Deno.test("after",()=>{
 var saves = ['profile', 'settings'];
  
 var done = _.after(saves.length, function() {
