@@ -68,6 +68,7 @@ for i in range(1, 11):
     plt.show()
 ```
 下圖一為learning rate =0.1,圖二為learning rate=0.9
+
 ![learning rate =0.1](img/output_ema4yj.gif)
 >圖一
 
