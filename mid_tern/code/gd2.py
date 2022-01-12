@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation
 # 學習率
-learning_rate = 0.1
+learning_rate = 0.9
 
 # 初始位置
 start_position = 5

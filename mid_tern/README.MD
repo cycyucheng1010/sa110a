@@ -67,9 +67,15 @@ for i in range(1, 11):
     #plt.title('f(x)=x^2, error=' + '{:.2f}'.format(abs(new_position**2)) +',learning rate='+'{:2.f}'.format(learning_rate))
     plt.show()
 ```
-![gif](https://github.com/cycyucheng1010/sa110a/blob/master/mid_tern/img/output_ema4yj.gif)
+下圖一為learning rate =0.1,圖二為learning rate=0.9
+![learning rate =0.1](img/output_ema4yj.gif)
+>圖一
+
+![learning rate =0.9](img/Webp.net-gifmaker.gif)
+>圖二
 ## 心得與感想
 * 藉由這次的期中報告透過實作的方式讓我對Gradient Descendnet有更深入的了解跟體會，也藉由這次的這個機會順便複習了老師曾在大三人工智慧課堂上上過的，反傳遞算法以及一階算法。
+* 另外在實驗中發現當learning rate太大時錯誤率會非常高，反之則很快就收斂，在一般的情況中能越快收斂越好，然而在深度學習中很快就收斂不見得是一件好事，那怎麼樣根據現實情況去做調整就是未來很重要的功課之一。
 
 
 ## 參考資料
