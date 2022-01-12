@@ -30,7 +30,7 @@
 * 梯度下降法是一種不斷去更新參數(這邊參數用x表示)找「解」的方法，所以一定要先隨機產生一組初始參數的「解」，然後根據這組隨機產生的「解」開始算此「解」的梯度方向大小，然後將這個「解」去減去梯度方向
 
 
-![梯度圖片](img\img1.jpg)
+![梯度圖片](https://github.com/cycyucheng1010/sa110a/blob/master/mid_tern/img/img1.jpg)
 >往箭頭方向則梯度大，反之則小
 
 ## 梯度下降法的程式實作
@@ -72,7 +72,7 @@ for i in range(1, 11):
     #plt.title('f(x)=x^2, error=' + '{:.2f}'.format(abs(new_position**2)) +',learning rate='+'{:2.f}'.format(learning_rate))
     plt.show()
 ```
-![gif](img\output_ema4yj.gif)
+![gif](https://github.com/cycyucheng1010/sa110a/blob/master/mid_tern/img/output_ema4yj.gif)
 ## 心得與感想
 * 藉由這次的期中報告透過實作的方式讓我對Gradient Descendnet有更深入的了解跟體會，也藉由這次的這個機會順便複習了老師曾在大三人工智慧課堂上上過的，反傳遞算法以及一階算法。
 
