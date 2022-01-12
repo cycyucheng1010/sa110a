@@ -1,5 +1,5 @@
 # 梯度下降法 (Gradient Descendnet)
-### 說明: 內容及程式碼參考網路上資源，來源網址皆有寫在參考資料中
+### 說明: 內容參考網路上資源，來源網址皆有寫在參考資料中，程式碼100%原創
 
 ## 為什麼選擇介紹梯度下降法 
 
@@ -85,4 +85,3 @@ for i in range(1, 11):
 [程式人媒體_人工智慧教材_反傳遞演算法 -- 手算案例](https://programmermedia.org/root/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E8%AA%B2%E7%A8%8B/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7/07-neural/03-net/%E5%8F%8D%E5%82%B3%E9%81%9E%E6%BC%94%E7%AE%97%E6%B3%95%E6%89%8B%E7%AE%97%E6%A1%88%E4%BE%8B.md)
 * [機器/深度學習-基礎數學(二):梯度下降法(gradient descent)](https://chih-sheng-huang821.medium.com/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92-%E5%9F%BA%E7%A4%8E%E6%95%B8%E5%AD%B8-%E4%BA%8C-%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D%E6%B3%95-gradient-descent-406e1fd001f)
 * [[深度學習講中文] 簡單解釋梯度下降法 (Gradient Descent)](https://medium.com/@arlen.mg.lu/%E6%B7%B1%E5%BA%A6%E5%AD%B8%E7%BF%92%E8%AC%9B%E4%B8%AD%E6%96%87-gradient-descent-b2a658815c72)
-* [【Python】淺談梯度下降與實作(上)：為什麼是你](https://dotblogs.com.tw/shaynling/2019/09/10/142936)
