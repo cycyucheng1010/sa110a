@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,28 @@
 <body>
     <h1 style="text-align: center;color: black;">SA110a 資工三 110810504 陳昱誠</h1>
     <h2 id="datetime" style="text-align: center;color: black;"></h1>
-    {% for item in to_do_list %}
-    <li>{{ item }}</li>
-    {% endfor %}
+    {% for vlist in vendor_list %}
+    <h1> 店家 : {{vlist.vendor_name }} </h1>
+    <ul>
+      <li>事情 : {{ vlist.store_name }}</li>
+      <li>時間 : {{ vlist.phone_number }}</li>
+      <li>地點 : {{ vlist.addres }}</li>
+    </ul>
+    {% endfor %}   
+    <!--
+    <form action="/" method="post">
+        {% csrf_token %}
+        <input type="text" name="new_item" id="new_item" placeholder="Input New Item">
+    </form>
+
+    <div id="to-do-list">
+        {% for item in to_do_list %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </div>
+-->
 </body>
+</html>
 <script>
     setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
 </script>

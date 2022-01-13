@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.urls import resolve
 from . import views 
 
-
+#v1.1
 class TestHomePageView(TestCase):
 
     def test_resolve_to_home_page(self):
@@ -21,4 +21,16 @@ class TestHomePageView(TestCase):
 
         # check response status is equal to 200
         self.assertEqual(response.status_code, 200)
+ #v1.3
+    def test_post_new_to_do_item(self):
+        response = self.client.post('/myapp/', { 'new_item': 'first' })
+        self.assertEqual(response.status_code, 200)
+        self.assertIn('first', response.content.decode())
+
+    def test_post_two_new_to_do(self):
+        to_do_list = ['first', 'second']
+        for index, item in enumerate(to_do_list):
+            response = self.client.post('/myapp/', { 'new_item': item })
+            self.assertEqual(response.status_code, 200)
+            self.assertIn(item, response.content.decode())
 
