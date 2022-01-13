@@ -1,5 +1,4 @@
 from selenium import webdriver
-import time
 #import unittest
 browser = webdriver.Chrome()
 browser.get('http://localhost:8000')
