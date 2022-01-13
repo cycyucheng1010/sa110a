@@ -15,7 +15,7 @@
 ## begining(v1.0)
 1. 設置環境
 2. 建立Django專案並透過selenium呼叫chrome去執行Django server 再利用assert去判斷是否可成功如果可以show pass 然後關閉瀏覽器
-3. [begintest.py](mysite/mysite/begin_test.py)備註:此單元測只有當Django剛初始化尚未新增app時可成功執行
+3. [begintest.py](https://github.com/cycyucheng1010/sa110a/blob/v1.0/fianal_tern/mysite/mysite/begin_test.py)備註:此單元測只有當Django剛初始化尚未新增app時可成功執行
 ![1](img/1.PNG)
 ![2](img/2.PNG)
 ## helloworld (v1.1)
@@ -23,13 +23,13 @@
      1. 測試程式碼是否正確
      2.  連線是否可以
 
-2. [tests](mysite/myapp/tests.py)
+2. [tests](https://github.com/cycyucheng1010/sa110a/blob/v1.1/fianal_tern/mysite/myapp/tests.py)
 
 ![3](img/3.PNG)
 ![4](img/4.PNG)
 ## myapp(v1.2)
 1. 新增會顯示即時時間的html然後利用selenium及Django test進行測試
-2. [testmyapp](mysite/mysite/testmyapp.py)
+2. [testmyapp](https://github.com/cycyucheng1010/sa110a/blob/v1.2/fianal_tern/mysite/mysite/testmyapp.py)
 
 ![5](img/5.PNG)
 ![6](img/6.PNG)
