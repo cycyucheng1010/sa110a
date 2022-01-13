@@ -45,7 +45,7 @@
           * html h1的內容是否正確
           * 是否可以成功input 內容到id = new item裡面
           * 是否可成功呈現輸入後儲存之內容
-
+4. [tests.py ](https://github.com/cycyucheng1010/sa110a/blob/v1.4/fianal_tern/mysite/myapp/tests.py) [testmyapp.py](https://github.com/cycyucheng1010/sa110a/blob/v1.4/fianal_tern/mysite/mysite/testmyapp.py)
 ![7](img/7.PNG)
 ![8](img/8.PNG)
 ## 參考資料
