@@ -7,9 +7,8 @@
   * Django    3.2.5
   * selenium  3.141.0
   * VScode    1.63.2
-## [更新日誌](https://github.com/cycyucheng1010/sa110a/edit/master/fianal_tern/README.md)
 ## 各主要版本之連結
-* [v1.0](https://github.com/cycyucheng1010/sa110a/tree/v1.0)
+* [v1.0](https://github.com/cycyucheng1010/sa110a/tree/v1.0) 
 * [v1.1](https://github.com/cycyucheng1010/sa110a/tree/v1.1)
 * [v1.2](https://github.com/cycyucheng1010/sa110a/tree/v1.2)
 * [v1.4](https://github.com/cycyucheng1010/sa110a/tree/v1.4)
