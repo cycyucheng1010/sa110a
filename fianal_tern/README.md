@@ -21,6 +21,8 @@
 ![5](img/5.PNG)
 ![6](img/6.PNG)
 ## 完成大部分測試(v1.4)
+* [tests](mysite/myapp/tests.py)
+* [testmyapp](mysite/mysite/testmyapp.py)
 * 由於v1.3在修改時發生大規模錯誤導致捨棄原本的branch v1.3 ，版本直接跳躍到v1.4
 * 此版本完成以下事項:
      1. 將myapp的路徑從副頁拉到主頁(原:http://127.0.0.1:8000/myapp/ ， 現:http://127.0.0.1:8000/)
