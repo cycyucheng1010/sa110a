@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SA110a final_tern homework To-Do List</title>
+</head>
+<body>
+    <h1 style="text-align: center;color: black;">SA110a 資工三 110810504 陳昱誠</h1>
+    <h2 id="datetime" style="text-align: center;color: black;"></h1>
+
+    <form style="text-align: center;" action="/" method="post">
+        <input type="text" name="new_item" id="new_item" placeholder="Input New Item">
+    </form>
+
+    <div id="to-do-list">
+        {% for item in to_do_list %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </div>
+    
+        
+</body>
+<script>
+    setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+</script>
