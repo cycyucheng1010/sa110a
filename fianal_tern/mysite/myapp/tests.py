@@ -16,8 +16,9 @@ class TestHomePageView(TestCase):
         # get url localhost:8000/
         response = self.client.get('/myapp/')
 
-        # check which template is used
-        #self.assertTemplateUsed(response, 'home.html')
+        #check which template is used
+        self.assertTemplateUsed(response, 'home.html')
 
         # check response status is equal to 200
         self.assertEqual(response.status_code, 200)
+
