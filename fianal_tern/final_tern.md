@@ -51,3 +51,6 @@
 ## 參考資料
 * [Testing in Python(feat. Django)（一、單元測試及功能測試篇）](https://medium.com/into-the-night/testing-in-python-feat-django-%E4%B8%80-%E5%96%AE%E5%85%83%E6%B8%AC%E8%A9%A6%E5%8F%8A%E5%8A%9F%E8%83%BD%E6%B8%AC%E8%A9%A6%E7%AF%87-94d68ef465e3)
 * [Python 3 Tutorial 第十一堂（2）使用 unittest 單元測試](https://openhome.cc/Gossip/CodeData/PythonTutorial/UnitTestPy3.html)
+* [HTML 註解 <!-- --> (Comments)](https://www.fooish.com/html/comment.html)
+* [[python爬蟲] Selenium常見元素定位方法和操作的學習介紹](https://www.itread01.com/articles/1476048648.html)
+* 
