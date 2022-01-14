@@ -48,15 +48,16 @@
 ## 心得
 ### 以專題為例
 1. 這本篇期末心得中人月神話應該是讓我感觸最深的，原因在於正如同書中所寫人多不一定有用，人少不一定會做不完。
-  * 我們這組共有4位成員但其中有部分成員連自己在做什麼都不知道，導致其他成員需要花更多時間去彌補他們的問題。
+   * 我們這組共有4位成員但其中有部分成員連自己在做什麼都不知道，導致其他成員需要花更多時間去彌補他們的問題。
 2. 我們的專題採用類似螺旋式開發的方式進行，一直重複 analysis design build test 的這個過程，透過這些過程我們發現可以很有效的去進行trouble-shooting
+
 ![image](https://user-images.githubusercontent.com/62127656/149443905-3109ba88-c97b-40c5-acaa-4df266a75724.png)
 
 3. 但在重新省思的過程中也找到可以再去修正的地方:
-  *  生命周期計劃嚴格管理，避免後續時間過度短缺
-  *  若可以重新安排則小組的人員應少而精
-  *  確立每次討論的議題，避免垃圾時間
-  *  嚴格的品質控制，確保成功率達到預期
+   *  生命周期計劃嚴格管理，避免後續時間過度短缺
+   *  若可以重新安排則小組的人員應少而精
+   *  確立每次討論的議題，避免垃圾時間
+   *  嚴格的品質控制，確保成功率達到預期
 ## 參考資料
 * [What is Software Engineering? Definition, Basics, Characteristics](https://www.guru99.com/what-is-software-engineering.html)
 * [Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
