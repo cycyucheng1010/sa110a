@@ -1,5 +1,6 @@
 # 簡易陽春留言板
 ## 說明
+* 專案目錄: [點我](https://github.com/cycyucheng1010/sa110a/tree/master/fianal_tern)
 * [LICENSE](https://github.com/cycyucheng1010/sa110a/blob/master/LICENSE.MD)
 * 本期末專案目的為透過簡單的網站設計，去實作單元測試、自動化測試、githubflow等軟體工程內容
 * 程式碼及內容參考網路上之資料，出處及來源皆紀載於參考資料
