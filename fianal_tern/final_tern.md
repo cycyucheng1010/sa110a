@@ -3,7 +3,7 @@
 * [LICENSE](https://github.com/cycyucheng1010/sa110a/blob/master/LICENSE.MD)
 * 本期末專案目的為透過簡單的網站設計，去實作單元測試、自動化測試、githubflow等軟體工程內容
 * 程式碼及內容參考網路上之資料，出處及來源皆紀載於參考資料
-* 透過利用Django的單元測試功能以及selenium去模擬使用者使用各功能，完成自動化測試
+* 透過TDD的方式使用Django的單元測試功能以及selenium去模擬使用者使用各功能，完成自動化測試
 * 試著利用github flow去進行版本的控制最後將成果merge master中
 * 本說明文件紀錄每一版本所做之更新
 * 環境版本:
