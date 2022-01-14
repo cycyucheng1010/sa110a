@@ -56,4 +56,4 @@
 * [Python 3 Tutorial 第十一堂（2）使用 unittest 單元測試](https://openhome.cc/Gossip/CodeData/PythonTutorial/UnitTestPy3.html)
 * [HTML 註解 <!-- --> (Comments)](https://www.fooish.com/html/comment.html)
 * [[python爬蟲] Selenium常見元素定位方法和操作的學習介紹](https://www.itread01.com/articles/1476048648.html)
-* [From Django 1.11 to Django 2.1(https://ithelp.ithome.com.tw/users/20111829/ironman/1804)
+* [From Django 1.11 to Django 2.1](https://ithelp.ithome.com.tw/users/20111829/ironman/1804)
